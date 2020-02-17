@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D46670FBA6A52A35ABD9F5E /* Pods_QRead.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F32B7CAA891977A74C0574 /* Pods_QRead.framework */; };
+		2D29DAF11E3D006100E7F13D /* QRExtention+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29DAF01E3D006100E7F13D /* QRExtention+Alert.swift */; };
+		2E99A1A1DD9EFD191043EDEC /* Pods_QRead_QReadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86700689C6A151355027E05 /* Pods_QRead_QReadUITests.framework */; };
+		D46E7E211E68323D00F4CD31 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46E7E201E68323D00F4CD31 /* Constants.swift */; };
+		D499DB6F1E430E55009B6F5F /* QRDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D499DB6E1E430E55009B6F5F /* QRDetailViewController.swift */; };
+		D49E22061E41C1E800A8FFCF /* QRHistoryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E22051E41C1E800A8FFCF /* QRHistoryTableView.swift */; };
+		D4AE4EFD1E3C693900520F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE4EFC1E3C693900520F01 /* AppDelegate.swift */; };
+		D4AE4F021E3C693900520F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE4F001E3C693900520F01 /* Main.storyboard */; };
+		D4AE4F041E3C693900520F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AE4F031E3C693900520F01 /* Assets.xcassets */; };
+		D4AE4F071E3C693900520F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE4F051E3C693900520F01 /* LaunchScreen.storyboard */; };
+		D4AE4F121E3C693A00520F01 /* QReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE4F111E3C693A00520F01 /* QReadTests.swift */; };
+		D4AE4F1D1E3C693A00520F01 /* QReadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE4F1C1E3C693A00520F01 /* QReadUITests.swift */; };
+		D4AE4F2B1E3C7B2B00520F01 /* QReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE4F2A1E3C7B2B00520F01 /* QReaderViewController.swift */; };
+		E51E7F11218C5334002D7BB1 /* QRCreateUnicID.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E7F10218C5334002D7BB1 /* QRCreateUnicID.swift */; };
+		E52ED31C2180834C000CD421 /* QRHistoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52ED31B2180834C000CD421 /* QRHistoryTableCell.swift */; };
+		E533FCA72194390E001B85D9 /* QRGendratDoctListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533FCA62194390D001B85D9 /* QRGendratDoctListVC.swift */; };
+		E53FC4AD21F201FD0087B97A /* QRFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53FC4AC21F201FD0087B97A /* QRFavouriteViewController.swift */; };
+		E54D06A420F37C2100278646 /* QRGendratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D06A320F37C2100278646 /* QRGendratorViewController.swift */; };
+		E55078A721C39987007CA951 /* QRGendratCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55078A621C39987007CA951 /* QRGendratCollectionCell.swift */; };
+		E5576D9920D8D99B00A7613B /* NSURL+URLPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5576D9820D8D99A00A7613B /* NSURL+URLPreview.swift */; };
+		E5850F08211099AB005C5EDE /* RealmDBClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5850F07211099AB005C5EDE /* RealmDBClass.swift */; };
+		E5B66954212824E200D040A5 /* QRMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66953212824E200D040A5 /* QRMoreViewController.swift */; };
+		E5D72A6320BC14E10004035D /* RealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D72A6220BC14E10004035D /* RealmObject.swift */; };
+		E5E76097218DA23E00BEE9A8 /* QRScanDocListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E76096218DA23E00BEE9A8 /* QRScanDocListVC.swift */; };
+		EB473D801D63DB94D323B400 /* Pods_QReadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5FDAB064D83B9C518CB447 /* Pods_QReadTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4AE4F0E1E3C693A00520F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4AE4EF11E3C693900520F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AE4EF81E3C693900520F01;
+			remoteInfo = QRead;
+		};
+		D4AE4F191E3C693A00520F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4AE4EF11E3C693900520F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AE4EF81E3C693900520F01;
+			remoteInfo = QRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17999BE18CE2DAB83A097732 /* Pods-QRead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRead/Pods-QRead.debug.xcconfig"; sourceTree = "<group>"; };
+		2D29DAF01E3D006100E7F13D /* QRExtention+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QRExtention+Alert.swift"; sourceTree = "<group>"; };
+		850D494A3EF66C08A2F1A14D /* Pods-QRead-QReadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRead-QReadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRead-QReadUITests/Pods-QRead-QReadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BF66AF1B4DD14FCA08F29C /* Pods-QReadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QReadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QReadTests/Pods-QReadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5FDAB064D83B9C518CB447 /* Pods_QReadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QReadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C361DC990FAC4EAE218A287A /* Pods-QRead-QReadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRead-QReadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRead-QReadUITests/Pods-QRead-QReadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9F32B7CAA891977A74C0574 /* Pods_QRead.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRead.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8A2947D3C34288D28D37DD /* Pods-QRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRead.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRead/Pods-QRead.release.xcconfig"; sourceTree = "<group>"; };
+		D46E7E201E68323D00F4CD31 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D499DB6E1E430E55009B6F5F /* QRDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDetailViewController.swift; sourceTree = "<group>"; };
+		D49E22051E41C1E800A8FFCF /* QRHistoryTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRHistoryTableView.swift; sourceTree = "<group>"; };
+		D4AE4EF91E3C693900520F01 /* QRead In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRead In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AE4EFC1E3C693900520F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4AE4F011E3C693900520F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4AE4F031E3C693900520F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AE4F061E3C693900520F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4AE4F081E3C693900520F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AE4F0D1E3C693A00520F01 /* QReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AE4F111E3C693A00520F01 /* QReadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QReadTests.swift; sourceTree = "<group>"; };
+		D4AE4F131E3C693A00520F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AE4F181E3C693A00520F01 /* QReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AE4F1C1E3C693A00520F01 /* QReadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QReadUITests.swift; sourceTree = "<group>"; };
+		D4AE4F1E1E3C693A00520F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AE4F2A1E3C7B2B00520F01 /* QReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QReaderViewController.swift; sourceTree = "<group>"; };
+		E51E7F10218C5334002D7BB1 /* QRCreateUnicID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreateUnicID.swift; sourceTree = "<group>"; };
+		E52ED31B2180834C000CD421 /* QRHistoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRHistoryTableCell.swift; sourceTree = "<group>"; };
+		E533FCA62194390D001B85D9 /* QRGendratDoctListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGendratDoctListVC.swift; sourceTree = "<group>"; };
+		E53FC4AC21F201FD0087B97A /* QRFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRFavouriteViewController.swift; sourceTree = "<group>"; };
+		E54D06A320F37C2100278646 /* QRGendratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGendratorViewController.swift; sourceTree = "<group>"; };
+		E55078A621C39987007CA951 /* QRGendratCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGendratCollectionCell.swift; sourceTree = "<group>"; };
+		E5576D9820D8D99A00A7613B /* NSURL+URLPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+URLPreview.swift"; sourceTree = "<group>"; };
+		E5850F07211099AB005C5EDE /* RealmDBClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealmDBClass.swift; path = Realm/RealmDBClass.swift; sourceTree = "<group>"; };
+		E5B66953212824E200D040A5 /* QRMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRMoreViewController.swift; sourceTree = "<group>"; };
+		E5D72A6220BC14E10004035D /* RealmObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealmObject.swift; path = Realm/RealmObject.swift; sourceTree = "<group>"; };
+		E5E76096218DA23E00BEE9A8 /* QRScanDocListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanDocListVC.swift; sourceTree = "<group>"; };
+		E86700689C6A151355027E05 /* Pods_QRead_QReadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRead_QReadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86C515947097B3C4F451834 /* Pods-QReadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QReadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QReadUITests/Pods-QReadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD582E6011522FB1A59C565D /* Pods-QReadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QReadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QReadTests/Pods-QReadTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD6597BF49C45A8B3B555055 /* Pods-QReadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QReadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QReadUITests/Pods-QReadUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4AE4EF61E3C693900520F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D46670FBA6A52A35ABD9F5E /* Pods_QRead.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE4F0A1E3C693A00520F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB473D801D63DB94D323B400 /* Pods_QReadTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE4F151E3C693A00520F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99A1A1DD9EFD191043EDEC /* Pods_QRead_QReadUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135086DF2CC07DD31DF6DA81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F32B7CAA891977A74C0574 /* Pods_QRead.framework */,
+				AF5FDAB064D83B9C518CB447 /* Pods_QReadTests.framework */,
+				E86700689C6A151355027E05 /* Pods_QRead_QReadUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F735247B29562FBD9FEBC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17999BE18CE2DAB83A097732 /* Pods-QRead.debug.xcconfig */,
+				CB8A2947D3C34288D28D37DD /* Pods-QRead.release.xcconfig */,
+				A6BF66AF1B4DD14FCA08F29C /* Pods-QReadTests.debug.xcconfig */,
+				FD582E6011522FB1A59C565D /* Pods-QReadTests.release.xcconfig */,
+				E86C515947097B3C4F451834 /* Pods-QReadUITests.debug.xcconfig */,
+				FD6597BF49C45A8B3B555055 /* Pods-QReadUITests.release.xcconfig */,
+				850D494A3EF66C08A2F1A14D /* Pods-QRead-QReadUITests.debug.xcconfig */,
+				C361DC990FAC4EAE218A287A /* Pods-QRead-QReadUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4A1A98C1E66DBC1006F9D4E /* NSObjectClass */ = {
+			isa = PBXGroup;
+			children = (
+				E5576D9820D8D99A00A7613B /* NSURL+URLPreview.swift */,
+				2D29DAF01E3D006100E7F13D /* QRExtention+Alert.swift */,
+				D46E7E201E68323D00F4CD31 /* Constants.swift */,
+				E51E7F10218C5334002D7BB1 /* QRCreateUnicID.swift */,
+			);
+			name = NSObjectClass;
+			sourceTree = "<group>";
+		};
+		D4AE4EF01E3C693900520F01 = {
+			isa = PBXGroup;
+			children = (
+				D4AE4EFB1E3C693900520F01 /* QRead */,
+				D4AE4F101E3C693A00520F01 /* QReadTests */,
+				D4AE4F1B1E3C693A00520F01 /* QReadUITests */,
+				D4AE4EFA1E3C693900520F01 /* Products */,
+				C2F735247B29562FBD9FEBC8 /* Pods */,
+				135086DF2CC07DD31DF6DA81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4AE4EFA1E3C693900520F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE4EF91E3C693900520F01 /* QRead In.app */,
+				D4AE4F0D1E3C693A00520F01 /* QReadTests.xctest */,
+				D4AE4F181E3C693A00520F01 /* QReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AE4EFB1E3C693900520F01 /* QRead */ = {
+			isa = PBXGroup;
+			children = (
+				E54CDD3C20BC08750020A19F /* AppDelegate */,
+				E5D72A6120BC149E0004035D /* Realm */,
+				E54CDD3B20BC085E0020A19F /* Assets */,
+				D4A1A98C1E66DBC1006F9D4E /* NSObjectClass */,
+				E54CDD3D20BC08820020A19F /* Class */,
+				D4AE4F081E3C693900520F01 /* Info.plist */,
+			);
+			path = QRead;
+			sourceTree = "<group>";
+		};
+		D4AE4F101E3C693A00520F01 /* QReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE4F111E3C693A00520F01 /* QReadTests.swift */,
+				D4AE4F131E3C693A00520F01 /* Info.plist */,
+			);
+			path = QReadTests;
+			sourceTree = "<group>";
+		};
+		D4AE4F1B1E3C693A00520F01 /* QReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE4F1C1E3C693A00520F01 /* QReadUITests.swift */,
+				D4AE4F1E1E3C693A00520F01 /* Info.plist */,
+			);
+			path = QReadUITests;
+			sourceTree = "<group>";
+		};
+		E52ED31D21808AF6000CD421 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				D49E22051E41C1E800A8FFCF /* QRHistoryTableView.swift */,
+				E52ED31B2180834C000CD421 /* QRHistoryTableCell.swift */,
+				E5E76096218DA23E00BEE9A8 /* QRScanDocListVC.swift */,
+				E533FCA62194390D001B85D9 /* QRGendratDoctListVC.swift */,
+				E55078A621C39987007CA951 /* QRGendratCollectionCell.swift */,
+			);
+			name = HistoryView;
+			sourceTree = "<group>";
+		};
+		E54CDD3B20BC085E0020A19F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE4F001E3C693900520F01 /* Main.storyboard */,
+				D4AE4F031E3C693900520F01 /* Assets.xcassets */,
+				D4AE4F051E3C693900520F01 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E54CDD3C20BC08750020A19F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE4EFC1E3C693900520F01 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E54CDD3D20BC08820020A19F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E52ED31D21808AF6000CD421 /* HistoryView */,
+				D4AE4F2A1E3C7B2B00520F01 /* QReaderViewController.swift */,
+				D499DB6E1E430E55009B6F5F /* QRDetailViewController.swift */,
+				E54D06A320F37C2100278646 /* QRGendratorViewController.swift */,
+				E5B66953212824E200D040A5 /* QRMoreViewController.swift */,
+				E53FC4AC21F201FD0087B97A /* QRFavouriteViewController.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		E5D72A6120BC149E0004035D /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				E5D72A6220BC14E10004035D /* RealmObject.swift */,
+				E5850F07211099AB005C5EDE /* RealmDBClass.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4AE4EF81E3C693900520F01 /* QRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AE4F211E3C693A00520F01 /* Build configuration list for PBXNativeTarget "QRead" */;
+			buildPhases = (
+				C3D921946FA439E850965A3E /* [CP] Check Pods Manifest.lock */,
+				D4AE4EF51E3C693900520F01 /* Sources */,
+				D4AE4EF61E3C693900520F01 /* Frameworks */,
+				D4AE4EF71E3C693900520F01 /* Resources */,
+				56F77D27AB0C5521FA54BE6A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRead;
+			productName = QRead;
+			productReference = D4AE4EF91E3C693900520F01 /* QRead In.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4AE4F0C1E3C693A00520F01 /* QReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AE4F241E3C693A00520F01 /* Build configuration list for PBXNativeTarget "QReadTests" */;
+			buildPhases = (
+				14191CB26AA369C78C80F1B1 /* [CP] Check Pods Manifest.lock */,
+				D4AE4F091E3C693A00520F01 /* Sources */,
+				D4AE4F0A1E3C693A00520F01 /* Frameworks */,
+				D4AE4F0B1E3C693A00520F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AE4F0F1E3C693A00520F01 /* PBXTargetDependency */,
+			);
+			name = QReadTests;
+			productName = QReadTests;
+			productReference = D4AE4F0D1E3C693A00520F01 /* QReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4AE4F171E3C693A00520F01 /* QReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AE4F271E3C693A00520F01 /* Build configuration list for PBXNativeTarget "QReadUITests" */;
+			buildPhases = (
+				0EDA6FDC87BCB7758DCDFCB4 /* [CP] Check Pods Manifest.lock */,
+				D4AE4F141E3C693A00520F01 /* Sources */,
+				D4AE4F151E3C693A00520F01 /* Frameworks */,
+				D4AE4F161E3C693A00520F01 /* Resources */,
+				180CB65ACA85522018F82FA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AE4F1A1E3C693A00520F01 /* PBXTargetDependency */,
+			);
+			name = QReadUITests;
+			productName = QReadUITests;
+			productReference = D4AE4F181E3C693A00520F01 /* QReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4AE4EF11E3C693900520F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Erabala;
+				TargetAttributes = {
+					D4AE4EF81E3C693900520F01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6BNPRA8RPG;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Manual;
+					};
+					D4AE4F0C1E3C693A00520F01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4AE4EF81E3C693900520F01;
+					};
+					D4AE4F171E3C693A00520F01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4AE4EF81E3C693900520F01;
+					};
+				};
+			};
+			buildConfigurationList = D4AE4EF41E3C693900520F01 /* Build configuration list for PBXProject "QRead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = D4AE4EF01E3C693900520F01;
+			productRefGroup = D4AE4EFA1E3C693900520F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4AE4EF81E3C693900520F01 /* QRead */,
+				D4AE4F0C1E3C693A00520F01 /* QReadTests */,
+				D4AE4F171E3C693A00520F01 /* QReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4AE4EF71E3C693900520F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AE4F071E3C693900520F01 /* LaunchScreen.storyboard in Resources */,
+				D4AE4F041E3C693900520F01 /* Assets.xcassets in Resources */,
+				D4AE4F021E3C693900520F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE4F0B1E3C693A00520F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE4F161E3C693A00520F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EDA6FDC87BCB7758DCDFCB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRead-QReadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14191CB26AA369C78C80F1B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QReadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		180CB65ACA85522018F82FA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRead-QReadUITests/Pods-QRead-QReadUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TwicketSegmentedControl/TwicketSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwicketSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRead-QReadUITests/Pods-QRead-QReadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F77D27AB0C5521FA54BE6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRead/Pods-QRead-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TwicketSegmentedControl/TwicketSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwicketSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRead/Pods-QRead-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D921946FA439E850965A3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRead-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4AE4EF51E3C693900520F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54D06A420F37C2100278646 /* QRGendratorViewController.swift in Sources */,
+				D499DB6F1E430E55009B6F5F /* QRDetailViewController.swift in Sources */,
+				E52ED31C2180834C000CD421 /* QRHistoryTableCell.swift in Sources */,
+				E5E76097218DA23E00BEE9A8 /* QRScanDocListVC.swift in Sources */,
+				E5850F08211099AB005C5EDE /* RealmDBClass.swift in Sources */,
+				2D29DAF11E3D006100E7F13D /* QRExtention+Alert.swift in Sources */,
+				D49E22061E41C1E800A8FFCF /* QRHistoryTableView.swift in Sources */,
+				E5B66954212824E200D040A5 /* QRMoreViewController.swift in Sources */,
+				E5D72A6320BC14E10004035D /* RealmObject.swift in Sources */,
+				D46E7E211E68323D00F4CD31 /* Constants.swift in Sources */,
+				D4AE4EFD1E3C693900520F01 /* AppDelegate.swift in Sources */,
+				D4AE4F2B1E3C7B2B00520F01 /* QReaderViewController.swift in Sources */,
+				E55078A721C39987007CA951 /* QRGendratCollectionCell.swift in Sources */,
+				E53FC4AD21F201FD0087B97A /* QRFavouriteViewController.swift in Sources */,
+				E533FCA72194390E001B85D9 /* QRGendratDoctListVC.swift in Sources */,
+				E5576D9920D8D99B00A7613B /* NSURL+URLPreview.swift in Sources */,
+				E51E7F11218C5334002D7BB1 /* QRCreateUnicID.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE4F091E3C693A00520F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AE4F121E3C693A00520F01 /* QReadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AE4F141E3C693A00520F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AE4F1D1E3C693A00520F01 /* QReadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4AE4F0F1E3C693A00520F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4AE4EF81E3C693900520F01 /* QRead */;
+			targetProxy = D4AE4F0E1E3C693A00520F01 /* PBXContainerItemProxy */;
+		};
+		D4AE4F1A1E3C693A00520F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4AE4EF81E3C693900520F01 /* QRead */;
+			targetProxy = D4AE4F191E3C693A00520F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4AE4F001E3C693900520F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE4F011E3C693900520F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4AE4F051E3C693900520F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE4F061E3C693900520F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4AE4F1F1E3C693A00520F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4AE4F201E3C693A00520F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4AE4F221E3C693A00520F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17999BE18CE2DAB83A097732 /* Pods-QRead.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 6BNPRA8RPG;
+				INFOPLIST_FILE = QRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karpomkarpipoom.QRead;
+				PRODUCT_NAME = "QRead In";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "QRead - App Dist - 8 jan 2020";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4AE4F231E3C693A00520F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8A2947D3C34288D28D37DD /* Pods-QRead.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 6BNPRA8RPG;
+				INFOPLIST_FILE = QRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karpomkarpipoom.QRead;
+				PRODUCT_NAME = "QRead In";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "QRead - App Dist - 8 jan 2020";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D4AE4F251E3C693A00520F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BF66AF1B4DD14FCA08F29C /* Pods-QReadTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kaizen.QReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRead.app/QRead";
+			};
+			name = Debug;
+		};
+		D4AE4F261E3C693A00520F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD582E6011522FB1A59C565D /* Pods-QReadTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kaizen.QReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRead.app/QRead";
+			};
+			name = Release;
+		};
+		D4AE4F281E3C693A00520F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850D494A3EF66C08A2F1A14D /* Pods-QRead-QReadUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kaizen.QReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QRead;
+			};
+			name = Debug;
+		};
+		D4AE4F291E3C693A00520F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C361DC990FAC4EAE218A287A /* Pods-QRead-QReadUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kaizen.QReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4AE4EF41E3C693900520F01 /* Build configuration list for PBXProject "QRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AE4F1F1E3C693A00520F01 /* Debug */,
+				D4AE4F201E3C693A00520F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AE4F211E3C693A00520F01 /* Build configuration list for PBXNativeTarget "QRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AE4F221E3C693A00520F01 /* Debug */,
+				D4AE4F231E3C693A00520F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AE4F241E3C693A00520F01 /* Build configuration list for PBXNativeTarget "QReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AE4F251E3C693A00520F01 /* Debug */,
+				D4AE4F261E3C693A00520F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AE4F271E3C693A00520F01 /* Build configuration list for PBXNativeTarget "QReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AE4F281E3C693A00520F01 /* Debug */,
+				D4AE4F291E3C693A00520F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4AE4EF11E3C693900520F01 /* Project object */;
+}

@@ -1,0 +1,30 @@
+PODS:
+  - Kanna (5.0.0)
+  - Realm (4.3.0):
+    - Realm/Headers (= 4.3.0)
+  - Realm/Headers (4.3.0)
+  - RealmSwift (4.3.0):
+    - Realm (= 4.3.0)
+  - TwicketSegmentedControl (0.1.2)
+
+DEPENDENCIES:
+  - Kanna (~> 5.0.0)
+  - RealmSwift
+  - TwicketSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - Kanna
+    - Realm
+    - RealmSwift
+    - TwicketSegmentedControl
+
+SPEC CHECKSUMS:
+  Kanna: a32875df62975f8f4b871e933b4ea1a5c3b8be0f
+  Realm: 9357c3589555793e1860a7104a7412bca4a48d99
+  RealmSwift: 402f1e379a8ef82c635313037b043f0f06de880c
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
+
+PODFILE CHECKSUM: 8a361ba83e73312a9265ad985ce28b21633007ec
+
+COCOAPODS: 1.8.4
